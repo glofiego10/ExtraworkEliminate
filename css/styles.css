@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EBE6E4;
+    color: #222222;
+}
+
+header {
+    background-color: #FF6F37;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #04B02C;
+}
+
+p {
+    color: #222222;
+}
+
+form {
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #7F7E7F;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #015C5E;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #079E2A;
+}
+
+
+footer {
+    background-color: #6B7C7D;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.background-overlay {
+    z-index: -1; 
+    pointer-events: none; 
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/workers.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+
+header {
+    background-image: url('../images/Logo.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
